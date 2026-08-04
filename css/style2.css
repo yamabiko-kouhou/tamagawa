@@ -1583,10 +1583,13 @@ a.ap {
 		border-right: 1px solid #fff;
 	}
 	.doctor-table-sp tbody th {
-		//width: 80px;
 		color: var(--main-color);
 		font-weight: bold;
+		white-space: nowrap;
 	}
+	.doctor-table-sp tbody td {
+		width: 45%;
+	} 
 }
 
 
